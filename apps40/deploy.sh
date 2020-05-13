@@ -201,16 +201,6 @@ spec:
         envFrom:
         - secretRef:
             name: rabbitmq-consumer
-      dnsPolicy: ClusterFirst
-      nodeSelector:
-        kubernetes.io/role: agent
-        beta.kubernetes.io/os: linux
-        type: virtual-kubelet
-      tolerations:
-      - key: virtual-kubelet.io/provider
-        operator: Exists
-      - key: azure.com/aci
-        effect: NoSchedule      
 ---
 apiVersion: keda.k8s.io/v1alpha1
 kind: ScaledObject

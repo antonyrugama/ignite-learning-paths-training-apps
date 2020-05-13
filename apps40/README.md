@@ -53,6 +53,7 @@ Then refresh you account with
 az provider register --namespace Microsoft.ContainerService
 ```
 
+<<<<<<< HEAD
 You will also need kubectl version 1.15.7 or below.
 
 ## Perform deployment
@@ -80,6 +81,9 @@ To start, click the button below:
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Fignite-learning-paths-training-apps%2Fmaster%2Fapps40%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
+=======
+You will also need kubectl version 1.14.6
+>>>>>>> parent of aeff9e9... Update cluster and keda versions (#42)
 
 ## Connect to deployment
 
